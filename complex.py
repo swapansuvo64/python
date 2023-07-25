@@ -1,7 +1,5 @@
-a=complex(input("Enter a complex number: "))
-b=complex(input("Enter another complex number : "))
-add=a+b
-sub=a-b
-mul=a*b
-div=a/b
-print(add,sub,mul,div)
+p=int(input("enter principle: "))
+r=int(input("enter rate: "))
+t=int(input("enter time in yeARS : "))
+a=(p*(pow((1+(r/100)),t)))
+print(a)
