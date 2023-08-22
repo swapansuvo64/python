@@ -15,5 +15,4 @@ elif hours>= 40 :
 else:
     print("Your enter wrong")
 
-
     

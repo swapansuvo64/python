@@ -1,4 +1,4 @@
-try:
+ try:
     x=int(input("enter a number"))
 except:
     x='n'
